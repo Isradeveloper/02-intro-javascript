@@ -9,12 +9,12 @@ const retornaArreglo = ()=> {
 const [letras, numeros] = retornaArreglo();
 console.log(letras, numeros)
 
-const useState = (valor) => {
+const usState = (valor) => {
   return [valor, ()=> {console.log("Hola mundo")}];
 }
 
 // eslint-disable-next-line react-hooks/rules-of-hooks
-const [nombre, setNombre] = useState('Goku');
+const [nombre, setNombre] = usState('Goku');
 
 
 // Tarea
